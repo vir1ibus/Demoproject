@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2A2E43"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="128.2dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#2C3043"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wait timer"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:layout_marginLeft="50dp" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="169dp"
+            android:src="@drawable/bg_timer2"
+            android:scaleType="centerCrop" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="169dp"
+            android:src="@drawable/bg_timer"
+            android:scaleType="centerCrop" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:text="00:00:00"
+        android:textColor="#FFF"
+        android:textSize="56dp"
+        />
+    <Button
+        android:layout_width="327dp"
+        android:layout_height="52dp"
+        android:text="stop"
+        android:background="@drawable/btn_shape"
+        android:textColor="#FFF"
+        android:textSize="15dp"
+        android:layout_marginTop="108dp"
+        />
+    <Button
+        android:layout_width="327dp"
+        android:layout_height="52dp"
+        android:text="Cancel"
+        android:background="@drawable/btn_shape2"
+        android:textColor="#FFF"
+        android:textSize="15dp"
+        android:layout_marginTop="25dp"
+        />
+</LinearLayout>
